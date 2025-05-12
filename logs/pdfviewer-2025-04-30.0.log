@@ -1,0 +1,256 @@
+2025-04-30 19:07:27.467 [AWT-EventQueue-0] INFO  com.pdfviewer.view.PdfViewerFrame - PDF Viewer frame initialized
+2025-04-30 19:07:27.654 [AWT-EventQueue-0] INFO  com.pdfviewer.application.Main - PDF Viewer application started
+2025-04-30 19:08:09.707 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Opening PDF file: /Users/connor/Downloads/책 다운로드/소프트웨어 아키텍트/새로쓴 소프트웨어공학.pdf
+2025-04-30 19:08:09.708 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Validating PDF file: /Users/connor/Downloads/책 다운로드/소프트웨어 아키텍트/새로쓴 소프트웨어공학.pdf
+2025-04-30 19:08:10.145 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - PDF validation successful: /Users/connor/Downloads/책 다운로드/소프트웨어 아키텍트/새로쓴 소프트웨어공학.pdf (version 0.1, 736 pages)
+2025-04-30 19:08:10.317 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PdfRendererFactory - Creating PDFBoxRenderer for document
+2025-04-30 19:08:10.318 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Extracting metadata
+2025-04-30 19:08:10.326 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Checking if PDF is image-based
+2025-04-30 19:08:10.349 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - PDF is image-based: true
+2025-04-30 19:08:10.388 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 1 with zoom factor 1.0
+2025-04-30 19:08:10.388 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 1 at 72.0 DPI with rotation 0.0
+2025-04-30 19:08:10.477 [AWT-EventQueue-0] INFO  c.p.view.panel.PdfRenderingPanel - Document set: 새로쓴 소프트웨어공학.pdf, 736 pages
+2025-04-30 19:08:10.478 [AWT-EventQueue-0] INFO  com.pdfviewer.view.PdfViewerFrame - Opened document: 새로쓴 소프트웨어공학.pdf
+2025-04-30 19:08:26.256 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 2 with zoom factor 1.0
+2025-04-30 19:08:26.256 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 2 at 72.0 DPI with rotation 0.0
+2025-04-30 19:08:26.354 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 2
+2025-04-30 19:08:27.107 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 3 with zoom factor 1.0
+2025-04-30 19:08:27.108 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 3 at 72.0 DPI with rotation 0.0
+2025-04-30 19:08:27.149 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 3
+2025-04-30 19:08:34.866 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 3 with zoom factor 1.0
+2025-04-30 19:08:34.867 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 3 with zoom 1.0
+2025-04-30 19:08:34.868 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 4 with zoom factor 1.0
+2025-04-30 19:08:34.868 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 4 at 72.0 DPI with rotation 0.0
+2025-04-30 19:08:34.908 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Page mode set to TWO_PAGES
+2025-04-30 19:08:40.194 [AWT-EventQueue-0] DEBUG c.p.model.service.zoom.ZoomManager - Zoomed in to 125.0%
+2025-04-30 19:08:40.195 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 3 with zoom factor 1.25
+2025-04-30 19:08:40.195 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 3 at 90.0 DPI with rotation 0.0
+2025-04-30 19:08:40.224 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 4 with zoom factor 1.25
+2025-04-30 19:08:40.224 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 4 at 90.0 DPI with rotation 0.0
+2025-04-30 19:08:40.245 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Zoomed in to 125.0%
+2025-04-30 19:08:49.625 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 3 with zoom factor 1.25
+2025-04-30 19:08:49.626 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 3 with zoom 1.25
+2025-04-30 19:08:49.627 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 4 with zoom factor 1.25
+2025-04-30 19:08:49.627 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 4 with zoom 1.25
+2025-04-30 19:08:49.628 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 4
+2025-04-30 19:08:50.575 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 5 with zoom factor 1.25
+2025-04-30 19:08:50.575 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 5 at 90.0 DPI with rotation 0.0
+2025-04-30 19:08:50.624 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 6 with zoom factor 1.25
+2025-04-30 19:08:50.624 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 6 at 90.0 DPI with rotation 0.0
+2025-04-30 19:08:50.663 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 5
+2025-04-30 19:08:52.108 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 5 with zoom factor 1.25
+2025-04-30 19:08:52.109 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 5 with zoom 1.25
+2025-04-30 19:08:52.110 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 6 with zoom factor 1.25
+2025-04-30 19:08:52.111 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 6 with zoom 1.25
+2025-04-30 19:08:52.111 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 6
+2025-04-30 19:08:53.457 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 7 with zoom factor 1.25
+2025-04-30 19:08:53.458 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 7 at 90.0 DPI with rotation 0.0
+2025-04-30 19:08:53.519 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 8 with zoom factor 1.25
+2025-04-30 19:08:53.519 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 8 at 90.0 DPI with rotation 0.0
+2025-04-30 19:08:53.570 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 7
+2025-04-30 19:08:58.795 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 7 with zoom factor 1.25
+2025-04-30 19:08:58.796 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 7 with zoom 1.25
+2025-04-30 19:08:58.797 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 8 with zoom factor 1.25
+2025-04-30 19:08:58.797 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 8 with zoom 1.25
+2025-04-30 19:08:58.798 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 8
+2025-04-30 19:09:00.041 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 9 with zoom factor 1.25
+2025-04-30 19:09:00.042 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 9 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:00.097 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 10 with zoom factor 1.25
+2025-04-30 19:09:00.098 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 10 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:00.143 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 9
+2025-04-30 19:09:00.733 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 9 with zoom factor 1.25
+2025-04-30 19:09:00.735 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 9 with zoom 1.25
+2025-04-30 19:09:00.736 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 10 with zoom factor 1.25
+2025-04-30 19:09:00.736 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 10 with zoom 1.25
+2025-04-30 19:09:00.738 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 10
+2025-04-30 19:09:01.058 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 11 with zoom factor 1.25
+2025-04-30 19:09:01.058 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 11 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:01.103 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 12 with zoom factor 1.25
+2025-04-30 19:09:01.103 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 12 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:01.148 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 11
+2025-04-30 19:09:01.899 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 11 with zoom factor 1.25
+2025-04-30 19:09:01.900 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 11 with zoom 1.25
+2025-04-30 19:09:01.901 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 12 with zoom factor 1.25
+2025-04-30 19:09:01.901 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 12 with zoom 1.25
+2025-04-30 19:09:01.902 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 12
+2025-04-30 19:09:02.966 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 13 with zoom factor 1.25
+2025-04-30 19:09:02.967 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 13 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:03.017 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 14 with zoom factor 1.25
+2025-04-30 19:09:03.017 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 14 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:03.056 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 13
+2025-04-30 19:09:05.741 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 13 with zoom factor 1.25
+2025-04-30 19:09:05.741 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 13 with zoom 1.25
+2025-04-30 19:09:05.741 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 14 with zoom factor 1.25
+2025-04-30 19:09:05.741 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 14 with zoom 1.25
+2025-04-30 19:09:05.742 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 14
+2025-04-30 19:09:07.633 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 15 with zoom factor 1.25
+2025-04-30 19:09:07.634 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 15 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:07.684 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 16 with zoom factor 1.25
+2025-04-30 19:09:07.684 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 16 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:07.723 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 15
+2025-04-30 19:09:08.638 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 15 with zoom factor 1.25
+2025-04-30 19:09:08.639 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 15 with zoom 1.25
+2025-04-30 19:09:08.640 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 16 with zoom factor 1.25
+2025-04-30 19:09:08.640 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 16 with zoom 1.25
+2025-04-30 19:09:08.641 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 16
+2025-04-30 19:09:09.450 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 17 with zoom factor 1.25
+2025-04-30 19:09:09.450 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 17 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:09.500 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 18 with zoom factor 1.25
+2025-04-30 19:09:09.501 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 18 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:09.539 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 17
+2025-04-30 19:09:10.690 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 17 with zoom factor 1.25
+2025-04-30 19:09:10.691 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 17 with zoom 1.25
+2025-04-30 19:09:10.692 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 18 with zoom factor 1.25
+2025-04-30 19:09:10.692 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 18 with zoom 1.25
+2025-04-30 19:09:10.693 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 18
+2025-04-30 19:09:13.166 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 19 with zoom factor 1.25
+2025-04-30 19:09:13.167 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 19 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:13.215 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 20 with zoom factor 1.25
+2025-04-30 19:09:13.215 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 20 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:13.259 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 19
+2025-04-30 19:09:14.104 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 19 with zoom factor 1.25
+2025-04-30 19:09:14.107 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 19 with zoom 1.25
+2025-04-30 19:09:14.107 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 20 with zoom factor 1.25
+2025-04-30 19:09:14.107 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 20 with zoom 1.25
+2025-04-30 19:09:14.108 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 20
+2025-04-30 19:09:15.524 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 21 with zoom factor 1.25
+2025-04-30 19:09:15.526 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 21 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:15.586 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 22 with zoom factor 1.25
+2025-04-30 19:09:15.586 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 22 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:15.625 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 21
+2025-04-30 19:09:16.942 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 21 with zoom factor 1.25
+2025-04-30 19:09:16.942 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 21 with zoom 1.25
+2025-04-30 19:09:16.944 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 22 with zoom factor 1.25
+2025-04-30 19:09:16.945 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 22 with zoom 1.25
+2025-04-30 19:09:16.945 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 22
+2025-04-30 19:09:17.658 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 23 with zoom factor 1.25
+2025-04-30 19:09:17.659 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 23 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:17.711 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 24 with zoom factor 1.25
+2025-04-30 19:09:17.712 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 24 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:17.753 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 23
+2025-04-30 19:09:19.550 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 23 with zoom factor 1.25
+2025-04-30 19:09:19.550 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 23 with zoom 1.25
+2025-04-30 19:09:19.551 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 24 with zoom factor 1.25
+2025-04-30 19:09:19.551 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 24 with zoom 1.25
+2025-04-30 19:09:19.552 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 24
+2025-04-30 19:09:20.241 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 25 with zoom factor 1.25
+2025-04-30 19:09:20.242 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 25 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:20.297 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 26 with zoom factor 1.25
+2025-04-30 19:09:20.297 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 26 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:20.337 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 25
+2025-04-30 19:09:21.462 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 25 with zoom factor 1.25
+2025-04-30 19:09:21.462 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 25 with zoom 1.25
+2025-04-30 19:09:21.463 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 26 with zoom factor 1.25
+2025-04-30 19:09:21.463 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 26 with zoom 1.25
+2025-04-30 19:09:21.464 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 26
+2025-04-30 19:09:22.091 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 27 with zoom factor 1.25
+2025-04-30 19:09:22.092 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 27 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:22.140 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 28 with zoom factor 1.25
+2025-04-30 19:09:22.140 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 28 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:22.179 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 27
+2025-04-30 19:09:26.029 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 27 with zoom factor 1.25
+2025-04-30 19:09:26.030 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 27 with zoom 1.25
+2025-04-30 19:09:26.031 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 28 with zoom factor 1.25
+2025-04-30 19:09:26.031 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 28 with zoom 1.25
+2025-04-30 19:09:26.032 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 28
+2025-04-30 19:09:26.758 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 29 with zoom factor 1.25
+2025-04-30 19:09:26.759 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 29 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:26.806 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 30 with zoom factor 1.25
+2025-04-30 19:09:26.807 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 30 at 90.0 DPI with rotation 0.0
+2025-04-30 19:09:26.858 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 29
+2025-04-30 19:09:28.416 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 29 with zoom factor 1.25
+2025-04-30 19:09:28.416 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 29 with zoom 1.25
+2025-04-30 19:09:28.416 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 30 with zoom factor 1.25
+2025-04-30 19:09:28.416 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 30 with zoom 1.25
+2025-04-30 19:09:28.417 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 30
+2025-04-30 19:09:39.216 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 29 with zoom factor 1.25
+2025-04-30 19:09:39.217 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 29 with zoom 1.25
+2025-04-30 19:09:39.218 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 30 with zoom factor 1.25
+2025-04-30 19:09:39.218 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 30 with zoom 1.25
+2025-04-30 19:09:39.218 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 29
+2025-04-30 19:09:39.896 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 27 with zoom factor 1.25
+2025-04-30 19:09:39.896 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 27 with zoom 1.25
+2025-04-30 19:09:39.897 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 28 with zoom factor 1.25
+2025-04-30 19:09:39.897 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 28 with zoom 1.25
+2025-04-30 19:09:39.898 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 28
+2025-04-30 19:09:40.525 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 27 with zoom factor 1.25
+2025-04-30 19:09:40.525 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 27 with zoom 1.25
+2025-04-30 19:09:40.526 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 28 with zoom factor 1.25
+2025-04-30 19:09:40.526 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 28 with zoom 1.25
+2025-04-30 19:09:40.528 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 27
+2025-04-30 19:09:41.208 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 25 with zoom factor 1.25
+2025-04-30 19:09:41.209 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 25 with zoom 1.25
+2025-04-30 19:09:41.209 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 26 with zoom factor 1.25
+2025-04-30 19:09:41.210 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 26 with zoom 1.25
+2025-04-30 19:09:41.210 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 26
+2025-04-30 19:09:42.467 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 25 with zoom factor 1.25
+2025-04-30 19:09:42.467 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 25 with zoom 1.25
+2025-04-30 19:09:42.468 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 26 with zoom factor 1.25
+2025-04-30 19:09:42.468 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 26 with zoom 1.25
+2025-04-30 19:09:42.469 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 25
+2025-04-30 19:15:25.569 [AWT-EventQueue-0] INFO  com.pdfviewer.view.PdfViewerFrame - PDF Viewer frame initialized
+2025-04-30 19:15:25.717 [AWT-EventQueue-0] INFO  com.pdfviewer.application.Main - PDF Viewer application started
+2025-04-30 19:15:51.813 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Opening PDF file: /Users/connor/Downloads/2024클라우드 보안가이드(AWS).pdf
+2025-04-30 19:15:51.816 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Validating PDF file: /Users/connor/Downloads/2024클라우드 보안가이드(AWS).pdf
+2025-04-30 19:15:52.275 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - PDF validation successful: /Users/connor/Downloads/2024클라우드 보안가이드(AWS).pdf (version 0.1, 172 pages)
+2025-04-30 19:15:52.546 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PdfRendererFactory - Creating PDFBoxRenderer for document
+2025-04-30 19:15:52.547 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Extracting metadata
+2025-04-30 19:15:52.557 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Checking if PDF is image-based
+2025-04-30 19:15:55.521 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - PDF is image-based: false
+2025-04-30 19:15:55.528 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 1 with zoom factor 1.0
+2025-04-30 19:15:55.529 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 1 at 72.0 DPI with rotation 0.0
+2025-04-30 19:15:55.952 [AWT-EventQueue-0] INFO  c.p.view.panel.PdfRenderingPanel - Document set: 2024클라우드 보안가이드(AWS).pdf, 172 pages
+2025-04-30 19:15:55.954 [AWT-EventQueue-0] INFO  com.pdfviewer.view.PdfViewerFrame - Opened document: 2024클라우드 보안가이드(AWS).pdf
+2025-04-30 19:16:03.996 [AWT-EventQueue-0] DEBUG c.p.model.service.zoom.ZoomManager - Zoomed in to 125.0%
+2025-04-30 19:16:03.999 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 1 with zoom factor 1.25
+2025-04-30 19:16:03.999 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 1 at 90.0 DPI with rotation 0.0
+2025-04-30 19:16:04.153 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Zoomed in to 125.0%
+2025-04-30 19:16:05.959 [AWT-EventQueue-0] DEBUG c.p.model.service.zoom.ZoomManager - Zoomed out to 100.0%
+2025-04-30 19:16:05.961 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 1 with zoom factor 1.0
+2025-04-30 19:16:05.962 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 1 with zoom 1.0
+2025-04-30 19:16:05.963 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Zoomed out to 100.0%
+2025-04-30 19:16:13.817 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 1 with zoom factor 1.0
+2025-04-30 19:16:13.818 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 1 with zoom 1.0
+2025-04-30 19:16:13.818 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 2 with zoom factor 1.0
+2025-04-30 19:16:13.819 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 2 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:14.053 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Page mode set to TWO_PAGES
+2025-04-30 19:16:42.543 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 1 with zoom factor 1.0
+2025-04-30 19:16:42.545 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 1 with zoom 1.0
+2025-04-30 19:16:42.546 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 2 with zoom factor 1.0
+2025-04-30 19:16:42.546 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 2 with zoom 1.0
+2025-04-30 19:16:42.546 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 2
+2025-04-30 19:16:43.153 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 3 with zoom factor 1.0
+2025-04-30 19:16:43.154 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 3 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:43.339 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 4 with zoom factor 1.0
+2025-04-30 19:16:43.340 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 4 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:43.412 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 3
+2025-04-30 19:16:43.909 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 3 with zoom factor 1.0
+2025-04-30 19:16:43.909 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 3 with zoom 1.0
+2025-04-30 19:16:43.909 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 4 with zoom factor 1.0
+2025-04-30 19:16:43.910 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 4 with zoom 1.0
+2025-04-30 19:16:43.910 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 4
+2025-04-30 19:16:44.425 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 5 with zoom factor 1.0
+2025-04-30 19:16:44.425 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 5 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:44.491 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 6 with zoom factor 1.0
+2025-04-30 19:16:44.491 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 6 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:44.508 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 5
+2025-04-30 19:16:45.002 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 5 with zoom factor 1.0
+2025-04-30 19:16:45.006 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 5 with zoom 1.0
+2025-04-30 19:16:45.007 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 6 with zoom factor 1.0
+2025-04-30 19:16:45.010 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 6 with zoom 1.0
+2025-04-30 19:16:45.012 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 6
+2025-04-30 19:16:45.501 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 7 with zoom factor 1.0
+2025-04-30 19:16:45.502 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 7 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:45.564 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 8 with zoom factor 1.0
+2025-04-30 19:16:45.564 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 8 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:45.596 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 7
+2025-04-30 19:16:46.106 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 7 with zoom factor 1.0
+2025-04-30 19:16:46.107 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 7 with zoom 1.0
+2025-04-30 19:16:46.108 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 8 with zoom factor 1.0
+2025-04-30 19:16:46.108 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Page found in cache: 8 with zoom 1.0
+2025-04-30 19:16:46.109 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 8
+2025-04-30 19:16:46.727 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 9 with zoom factor 1.0
+2025-04-30 19:16:46.728 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 9 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:46.764 [AWT-EventQueue-0] DEBUG c.p.model.service.PdfServiceImpl - Rendering page 10 with zoom factor 1.0
+2025-04-30 19:16:46.764 [AWT-EventQueue-0] DEBUG c.p.m.s.renderer.PDFBoxRenderer - Rendering page 10 at 72.0 DPI with rotation 0.0
+2025-04-30 19:16:46.781 [AWT-EventQueue-0] DEBUG c.p.view.panel.PdfRenderingPanel - Navigated to page 9
